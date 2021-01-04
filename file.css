@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font: "Poppins";
+}
+
+header{
+    width: 95%;
+    background-color: rgb(175, 175, 175);
+    display: block;
+    height: 20vh;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+header h1{
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+}
+
+nav{
+    width: 95%;
+    display: flex;
+    background-color: rgb(27, 167, 27);
+    height: 10vh;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+nav h1{
+    margin-left: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+   
+}
+
+.studentInfo{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.studentHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(37, 37, 37);
+}
+
+.studentHeader h1{
+    padding-left: 10px;
+    font: 2rem "Poppins";
+    text-transform: uppercase;
+}
+
+
+form{
+    display: block;
+    background-color: white;
+}
+
+form p{
+    font: 1.5rem "Poppins";
+    margin-left: 10px;
+}
+#date{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 3px;
+    margin: 10px auto;
+    margin-left: 10px;
+}
+
+form ul{
+    display: flex;
+    justify-content: space-around;
+}
+form ul li{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    list-style: none;
+}
+form li input{
+    width: 85%;
+    height: 5vh;
+    border-radius: 3px;
+    margin: 10px auto;
+    margin-left: 10px;
+}
+
+form input{
+    width: 88%;
+    height: 5vh;
+    border-radius: 3px;
+    margin: 10px auto;
+    margin-left: 10px;
+}
+
+#address{
+    height: 15vh;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(233, 233, 233);
+}
+
+.buttons{
+    margin-left: 20px;
+}
+
+footer button{
+    height: 5vh;
+    width: 5vw;
+    font: 1rem "Poppins";
+    border: none;
+    border-radius: 5px;
+}
+#wan{
+    background-color: blue;
+    color: white;
+}
+#tu{
+    background-color: goldenrod;
+    
+}
+#tri{
+    background-color: red;
+    color: white;
+}
+.studentFooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(37, 37, 37);
+    margin-bottom: 20px;
+}
+
+.studentFooter h1{
+    padding-left: 10px;
+    font: 2rem "Poppins";
+    text-transform: uppercase;
+}
